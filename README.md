@@ -1,32 +1,47 @@
-# Low-Latency AI Voice Assistant (Streamlit/OpenAI)
-
-This project implements an **aggressively optimized voice conversation system** designed for near-real-time performance. It uses Streamlit for the UI and the OpenAI API for a complete pipeline: Speech-to-Text (STT), Large Language Model (LLM) response, and Text-to-Speech (TTS).
-
-The primary goal of this configuration is to minimize the total latency to **under 3 seconds** for a fluid, instantaneous user experience.
+# 🎙️ AI Voice Assistant  
+> 🧠 Whisper STT → 💬 GPT-4o-mini → 🔊 TTS  
+> A real-time, low-latency voice chatbot built with Streamlit and OpenAI APIs.
 
 ---
 
-## 🚀 Key Features
+## 🌟 Overview  
 
-* **Ultra-Low Latency Focus:** Achieved through aggressive configuration of LLM and TTS parameters.
-* **Complete Voice Pipeline:** Integrates Whisper (STT), GPT-4o-mini (LLM), and TTS-1 (TTS).
-* **Fast LLM:** Uses **GPT-4o-mini** and limits output to **40 tokens** (one short sentence) for speed.
-* **High-Speed TTS:** Generates audio at a rate of **1.25x** normal speed.
-* **Extended Context:** The LLM retains the **last 10 turns** of conversation history.
-* **Asynchronous API Calls:** Utilizes `AsyncOpenAI` for efficient processing.
-* **Streamlit UI:** Provides a simple, modern interface with real-time status updates.
+This project is an **AI Voice Assistant** powered by OpenAI's latest APIs and optimized for **speed** and **smooth user interaction**.  
+Users can speak directly into the mic 🎤, get transcriptions using **Whisper STT**, receive instant replies from **GPT-4o-mini**, and hear responses back via **TTS** — all inside an elegant, minimal **Streamlit UI**.  
+
+The system is fully asynchronous ⚡ and built for ultra-low latency voice interaction.  
 
 ---
 
-## 🛠️ Setup and Installation
+## 🖥️ Features  
 
-### 1. Prerequisites
+✅ **🎤 Real-Time Speech Recognition** using `Whisper-1`  
+✅ **🤖 AI Chat Responses** powered by `GPT-4o-mini`  
+✅ **🔊 Instant Text-to-Speech (TTS)** via `tts-1`  
+✅ **⚡ Optimized Latency** (avg. < 3 seconds)  
+✅ **📂 Chat Export** option to save your conversations  
+✅ **🧭 Clear & Restart Controls**  
+✅ **🎨 Stunning Gradient UI** with smooth chat bubbles  
 
-Ensure you have Python installed.
+---
 
-### 2. Install Dependencies
+## 🧰 Tech Stack  
 
-Install the required Python libraries using pip:
+| Component | Technology |
+|------------|-------------|
+| 🎛️ Frontend | [Streamlit](https://streamlit.io) |
+| 🎙️ Mic Recorder | [streamlit-mic-recorder](https://pypi.org/project/streamlit-mic-recorder/) |
+| 🧠 AI Models | [OpenAI GPT-4o-mini](https://platform.openai.com/docs) |
+| 🗣️ Speech-to-Text | Whisper-1 |
+| 🔉 Text-to-Speech | TTS-1 |
+| ⚙️ Environment Management | python-dotenv |
+| 🪶 Styling | Custom CSS |
 
+---
+
+## 🚀 Setup Instructions  
+
+### 1️⃣ Clone the repository  
 ```bash
-pip install  -r requirements.txt
+git clone https://github.com/yourusername/ai-voice-assistant.git
+cd ai-voice-assistant
