@@ -56,13 +56,14 @@ venv\Scripts\activate
 ```
  pip install -r requirements.txt
 ```
-### 4. Enter Api key in .env file
+### 4. Enter api key in .env file
 ```
 OPENAI_API_KEY=your_api_key_here
 
 ```
-### 4. Run the App
+### 4. Run the app
 ```
 streamlit run app.py
+
 ```
 
