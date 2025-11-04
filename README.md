@@ -18,7 +18,7 @@ The system is fully asynchronous ⚡ and built for ultra-low latency voice inter
  **🎤 Real-Time Speech Recognition** using `Whisper-1`  
  **🤖 AI Chat Responses** powered by `GPT-4o-mini`  
  **🔊 Instant Text-to-Speech (TTS)** via `tts-1`  
- **⚡ Optimized Latency** (avg. < 3 seconds)  
+ **⚡ Optimized Latency** (avg. < 7 seconds)  
  **📂 Chat Export** option to save your conversations  
  **🧭 Clear & Restart Controls**  
  **🎨 Stunning Gradient UI** with smooth chat bubbles  
