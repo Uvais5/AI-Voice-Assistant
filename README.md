@@ -29,4 +29,4 @@ Ensure you have Python installed.
 Install the required Python libraries using pip:
 
 ```bash
-pip install streamlit openai streamlit-mic-recorder
+pip install  -r requirements.txt
