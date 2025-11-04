@@ -1,4 +1,4 @@
-#Low-Latency AI Voice Assistant (Streamlit/OpenAI)
+# Low-Latency AI Voice Assistant (Streamlit/OpenAI)
 
 This project implements an **aggressively optimized voice conversation system** designed for near-real-time performance. It uses Streamlit for the UI and the OpenAI API for a complete pipeline: Speech-to-Text (STT), Large Language Model (LLM) response, and Text-to-Speech (TTS).
 
